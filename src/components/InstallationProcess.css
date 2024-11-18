@@ -1,0 +1,35 @@
+/* InstallationProcess.css */
+.installation-process {
+    background-color: #f9f9f9;
+    padding: 2rem;
+    border-radius: 8px;
+    margin: 2rem 0;
+}
+
+.installation-process h2 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+    text-align: center;
+}
+
+.installation-process ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.installation-process li {
+    margin: 1rem 0;
+    padding: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.installation-process h3 {
+    font-size: 1.5rem;
+    margin-bottom: 0.5rem;
+}
+
+.installation-process p {
+    font-size: 1rem;
+    margin: 0;
+}

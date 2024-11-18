@@ -1,0 +1,129 @@
+/* Importing a cool font from Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap');
+
+body, html {
+  font-family: 'Poppins', sans-serif; /* Applying the font to the body */
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.home-section {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start; /* Align content to the top */
+  align-items: flex-start; /* Align all elements from the left */
+  background-color: white;
+  color:   black;
+    padding: 20px 50px;
+  position: relative;
+  min-height: 30vh; /* Increase the height slightly */
+  z-index: 1;
+}
+
+.header-text {
+  margin-bottom: 10px;
+}
+
+.header-text h4 {
+  font-size: 18px;
+  color: #ff5722;
+}
+
+.content-container {
+  text-align: left;
+  margin-bottom: 30px;
+}
+
+.content-container h1 {
+  font-size: 48px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.content-container p {
+  font-size: 16px;
+  margin-bottom: 30px;
+  line-height: 1.5;
+}
+
+.actions {
+  display: flex;
+  gap: 20px;
+}
+
+.discover-more,
+.get-connection {
+  background-color: #ff5722;
+  color: white;
+  padding: 15px 30px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.get-connection {
+  background-color: transparent;
+  border: 1px solid white;
+  color: white;
+}
+
+.navigation-arrows {
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  right: 20px;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.arrow {
+  color: white;
+  font-size: 24px;
+  margin: 10px 0;
+  cursor: pointer;
+}
+
+/* Media Queries for Mobile Devices */
+@media (max-width: 768px) {
+  .content-container h1 {
+    font-size: 36px; /* Smaller font size for heading */
+  }
+
+  .content-container p {
+    font-size: 14px; /* Slightly smaller font for paragraph */
+  }
+
+  .actions button {
+    font-size: 14px; /* Reduce button font size for smaller screens */
+    padding: 12px 25px; /* Adjust button padding for smaller screens */
+  }
+
+  .home-section {
+    padding: 30px;  /* Adjust padding for better spacing on mobile */
+  }
+
+  .navigation-arrows {
+    right: 15px;
+  }
+}
+
+@media (max-width: 480px) {
+  .content-container h1 {
+    font-size: 28px; /* Even smaller font size for very small screens */
+  }
+
+  .content-container p {
+    font-size: 12px; /* Smaller paragraph font size */
+  }
+
+  .actions button {
+    font-size: 12px;
+    padding: 10px 20px;
+  }
+
+  .home-section {
+    padding: 20px; /* Larger padding for small screens */
+  }
+}

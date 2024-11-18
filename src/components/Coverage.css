@@ -1,0 +1,44 @@
+.coverage-section {
+    text-align: center;
+    padding: 2rem;
+    background-color: #f0f0f0;
+  }
+  
+  .coverage-section h2 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+  }
+  
+  .coverage-section p {
+    margin-bottom: 1.5rem;
+    font-size: 1.2rem;
+  }
+  .coverage-section {
+    margin: 20px;
+  }
+  
+  .coverage-table {
+    margin-bottom: 20px;
+    overflow-x: auto;
+  }
+  
+  .coverage-table table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  .coverage-table th, .coverage-table td {
+    padding: 10px;
+    text-align: left;
+    border: 1px solid #ddd;
+  }
+  
+  .coverage-table th {
+    background-color: #f0f0f0;
+    font-weight: bold;
+  }
+  
+  .coverage-table td {
+    background-color: #fafafa;
+  }
+  
